@@ -2,7 +2,7 @@ const { ezra } = require("../fredi/ezra");
 const {getAllSudoNumbers,isSudoTableNotEmpty} = require("../luckydatabase/sudo")
 const conf = require("../set");
 
-ezra({ nomCom: "owner", categorie: "devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "owner", categorie: "luckymd-devs", reaction: "🚜" }, async (dest, zk, commandeOptions) => {
     const { ms , mybotpic } = commandeOptions;
     
   const thsudo = await isSudoTableNotEmpty()
@@ -55,12 +55,12 @@ ezra({ nomCom: "dev", categorie: "luckymd-devs", reaction: "🚜" }, async (dest
     const { ms, mybotpic } = commandeOptions;
 
     const devs = [
-      { nom: "Wycliffe", numero: "254748571920" },
+      { nom: "frediezra", numero: "255620814108" },
       { nom: "freditech", numero: "255752593977" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = "Uuhh Hellow This Is Digitex Xmd Dev Contacts Check✅:\n\n";
+    let message = "Uuhh Hellow This Is Lucky Md Dev Contacts Check✅:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
@@ -91,11 +91,11 @@ else {
 }
 });
 
-ezra({ nomCom: "support", categorie: "devs" }, async (dest, zk, commandeOptions) => {
+ezra({ nomCom: "support", categorie: "luckymd-devs" }, async (dest, zk, commandeOptions) => {
   const { ms, repondre, auteurMessage, } = commandeOptions; 
  
   repondre("look on pm sir ")
-  await zsendMessage(auteurMessage,{text :`https://Digitexsmartsolutions.com`},{quoted :ms})
+  await zsendMessage(auteurMessage,{text :`https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f`},{quoted :ms})
 
 })
 
@@ -104,11 +104,11 @@ ezra({ nomCom: "developer", categorie: "General", reaction: "🚜" }, async (des
 
     const devs = [
       { nom: "frediezra", numero: "255752593977" },
-      { nom: "Digitex", numero: "254748571920" },
+      { nom: "fredi tech", numero: "255620814108" },
       // Ajoute d'autres développeurs ici avec leur nom et numéro
     ];
 
-    let message = " Hello👋 *Welcome to DIIGITEX_XMD* here is the developer numbers:\n\n";
+    let message = " Hello👋 *Welcome to Lucky md * here is the developer numbers:\n\n";
     for (const dev of devs) {
       message += `----------------\n• ${dev.nom} : https://wa.me/${dev.numero}\n`;
     }
