@@ -1,12 +1,12 @@
 
 
 {
-  "bot-name": "✧⁠LUCKY_MD✧ MULT DEVICE",
-  "description": "Lucky Whatsapp device bot made by FrediEzra to help Whatsapp users to enjoy while helping...",
-  "logo": "https://files.catbox.moe/7irwqn.jpeg",
-  "keywords": ["Fredi-Ezra", "Lucky-Md", "mdtech"],
-  "documentation-link": "https://fredietech.onrender.com",
-  "owner-verification":"frediezra360@gmail.com",
+  "bot-name": "✧DIGITEX_MD✧ MULT DEVICE",
+  "description": "Digitex Whatsapp device bot made by Juma to help Whatsapp users to enjoy while helping...",
+  "logo": "https://files.catbox.moe/g7qjxj.png",
+  "keywords": ["Juma", "Digitex-Md", "mdtech"],
+  "documentation-link": "https://digitex-code.onrender.com",
+  "owner-verification":digitexsoftwares@gmail.com",
   "env": {
     "PREFIX":
     {
@@ -73,7 +73,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "✧⁠LUCKY_MD✧",
+      "value": "✧DIGITEX_MD✧",
       "required": false 
     },
     "PUBLIC_MODE": {
@@ -98,12 +98,12 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "FrediEzra",
+      "value": "Juma",
       "required": false
     },
     "URL": {
       "description": "you must add your bot image url.Get your image url now and fill it here",
-      "value": "https://files.catbox.moe/7irwqn.jpeg",
+      "value": "https://files.catbox.moe/g7qjxj.png",
       "required": true
     },
     "AUTO_READ_MESSAGES": {
@@ -112,8 +112,8 @@
       "required": false  
     },
     "NUMERO_OWNER": {
-      "description": "Your phone number (exclude '+' and area code, e.g., '255752593977')",
-      "value": "255752593977",
+      "description": "Your phone number (exclude '+' and area code, e.g., '254748571920')",
+      "value": "254748571920",
       "required": false
     },
     "WARN_COUNT": {
