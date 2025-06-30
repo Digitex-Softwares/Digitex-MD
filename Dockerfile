@@ -10,7 +10,7 @@ RUN apt-get update && \
   npm i pm2 -g && \
   rm -rf /var/lib/apt/lists/*
   
-RUN git clone https://github.com/mr-X-force/LUCKY-MD-XFORCE /root/lucky_bot
+RUN git clone https://github.com/Digitex-Softwares/DIGITEX-MD /root/lucky_bot
 WORKDIR /root/lucky_Bot/
 
 
@@ -22,4 +22,4 @@ COPY . .
 
 EXPOSE 5000
 
-CMD ["npm", "run" , "lucky"]
+CMD ["npm", "run" , "digitex-md"]
