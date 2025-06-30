@@ -7,9 +7,10 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'ezra',
+module.exports = { session: process.env.SESSION_ID || 'Juma',
     PREFIXE: process.env.PREFIX || ".",
-    GITHUB : process.env.GITHUB|| 'https://github.com/sesco001/Diigitex_xmd',
+    GITHUB : process.env.GITHUB|| 'https://github.com/Digitex-Softwares/Digitex_x
+        md',
     OWNER_NAME : process.env.OWNER_NAME || "Juma Wycliffe",
     NUMERO_OWNER : process.env.NUMERO_OWNER || "254748571920",  
               
@@ -24,14 +25,14 @@ module.exports = { session: process.env.SESSION_ID || 'ezra',
     AUTO_BLOCK: process.env.AUTO_BLOCK || 'no', 
     GCF: process.env.GROUP_HANDLE || 'no', 
     AUTO_REPLY : process.env.AUTO_REPLY || "no", 
-    AUTO_STATUS_TEXT: process.env.AUTO_STATUS_TEXT || 'Your Status Seen By DIIGITEX_XMD',   
+    AUTO_STATUS_TEXT: process.env.AUTO_STATUS_TEXT || 'Your Status Seen By DIGITEX_MD',   
     AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || 'no',
     AUTO_BIO: process.env.AUTO_BIO || 'yes',       
     ANTI_CALL_TEXT : process.env.ANTI_CALL_TEXT || '',             
     GURL: process.env.GURL  || "https://whatsapp.com/channel/0029Vb5zdsiA89MrLd1hAk2Q",
     SITE :process.env.SITE || "https://Digitexsmartsolutions.com",
-    CAPTION : process.env.CAPTION || "DIIGITEX_XMD",
-    BOT : process.env.BOT_NAME || 'DIIGITEX_XMD⁠',
+    CAPTION : process.env.CAPTION || "DIGITEX_MD",
+    BOT : process.env.BOT_NAME || 'DIGITEX_MD⁠',
     MODE: process.env.PUBLIC_MODE || "no",              
     TIMEZONE: process.env.TIMEZONE || "Africa/Dodoma", 
     PM_PERMIT: process.env.PM_PERMIT || 'no',
