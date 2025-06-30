@@ -7,7 +7,7 @@ const databasePath = path.join(__dirname, './database.db');
 const DATABASE_URL = process.env.DATABASE_URL === undefined
     ? databasePath
     : process.env.DATABASE_URL;
-module.exports = { session: process.env.SESSION_ID || 'Juma',
+module.exports = { session: process.env.SESSION_ID || 'ezra',
     PREFIXE: process.env.PREFIX || ".",
     GITHUB : process.env.GITHUB|| 'https://github.com/Digitex-Softwares/Digitex_x
         md',
@@ -34,7 +34,7 @@ module.exports = { session: process.env.SESSION_ID || 'Juma',
     CAPTION : process.env.CAPTION || "DIGITEX_MD",
     BOT : process.env.BOT_NAME || 'DIGITEX_MD⁠',
     MODE: process.env.PUBLIC_MODE || "no",              
-    TIMEZONE: process.env.TIMEZONE || "Africa/Dodoma", 
+    TIMEZONE: process.env.TIMEZONE || "Africa/Nairobi", 
     PM_PERMIT: process.env.PM_PERMIT || 'no',
     HEROKU_APP_NAME : process.env.HEROKU_APP_NAME || null,
     HEROKU_API_KEY : process.env.HEROKU_API_KEY || null,
