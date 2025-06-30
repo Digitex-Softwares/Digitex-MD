@@ -1,6 +1,6 @@
 {
-  "name": "DIIGITEX_XMD MULT DEVICE",
-  "description": "DIIGITEX_XMD Whatsapp device bot made by Juma Wycliffe to help Whatsapp users to enjoy while helping...",
+  "name": "DIGITEX_MD MULT DEVICE",
+  "description": "DIGITEX_MD Whatsapp device bot made by Juma Wycliffe to help Whatsapp users to enjoy while helping...",
   "keywords": [
     "bot",
     "node",
@@ -8,7 +8,7 @@
     "whatsapp"
   ],
   "logo": "https://files.catbox.moe/g7qjxj.png",
-  "repository": "https://github.com/sesco001/Diigitex_xmd",
+  "repository": "https://github.com/Digitex-Softwares/Digitex_md",
   "succes_url": "/",
   "stack": "container",
   "env": {
@@ -61,7 +61,7 @@
     },
     "AUTO_STATUS_TEXT": {
       "description": "type your genuine status message",
-      "value": "💲YOUR STATUS VIEWED BY DIIGITEX_XMD SUCCESSFUL 😇✅✅",
+      "value": "💲YOUR STATUS VIEWED BY DIGITEX_MD SUCCESSFUL 😇✅✅",
       "required": false
     },
     "AUTO_STATUS_REPLY": {
@@ -76,7 +76,7 @@
     },
     "BOT_NAME": {
       "description": "you must give a name for you bot uhh??!!",
-      "value": "DIIGITEX_XMD",
+      "value": "DIGITEX_MD",
       "required": false 
     },
     "CHAT_BOT": {
@@ -106,7 +106,7 @@
     },
     "OWNER_NAME": {
       "description": "don't you have a name bro.Insert your name here!!",
-      "value": "Wycliffe",
+      "value": "Juma",
       "required": false
     },
     "URL": {
