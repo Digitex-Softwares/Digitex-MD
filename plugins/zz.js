@@ -1,4 +1,4 @@
-const { ezra } = require("../fredi/ezra");
+const { juma } = require("../juma");
 const axios = require('axios');
 const ytSearch = require('yt-search');
 const conf = require(__dirname + '/../set');
@@ -90,15 +90,15 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*DIGITEX MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in KENYA 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by JUMA
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
-🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
+🌐 *Bot Repo:* https://github.com/Digitex-Softwares/DIGITEX_MD
 
-> regards frediezra`,
+> regards Juma`,
         audio: { url: downloadUrl },
         mimetype: 'audio/mp4',
         contextInfo: {
@@ -114,11 +114,11 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*DIGITEX MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in KENYA 
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by JUMA
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
@@ -239,11 +239,11 @@ ezra({
     // Prepare the message payload with external ad details
     const messagePayloads = [
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*DIGITEX MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in JENYA
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by Juma
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
@@ -263,11 +263,11 @@ ezra({
         },
       },
       {
-      caption: `\n*LUCKY MD AUDIOS*\n
+      caption: `\n*DIGITEX MD AUDIOS*\n
 ╭┈┈┈⊷
-┊ *Made:* in Arusha Tanzania 
+┊ *Made:* in Juma
 ┊ *Quality:* High
-┊ *Powered:* by FrediEtech 
+┊ *Powered:* by Juma
 ╰┈┈┈┈┈┈┈┈┈┈┈┈┈⊷
 🌐 *Bot Repo:* https://github.com/Fred1e/LUCKY_MD
 
