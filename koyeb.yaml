@@ -1,6 +1,6 @@
-name: lucky-md-xforce
+name: Digitex-MD 
 services:
-  - name: Fredi-Ai
+  - name: Juma-Ai
     type: web
     ports:
       - 5000
