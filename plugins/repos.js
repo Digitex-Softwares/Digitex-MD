@@ -6,7 +6,7 @@ const {
 let dynamicForks = 5000;
 const fetchGitHubRepoDetails = async () => {
   try {
-    const _0x1c6838 = await axios.get("https://api.github.com/repos/sesco001/Diigitex_xmd");
+    const _0x1c6838 = await axios.get("https://api.github.com/repos/Digitex-Softwares/Digitex-MD");
     const {
       name: _0x4ae93b,
       stargazers_count: _0x27ef27,
