@@ -40,23 +40,23 @@ const date = moment().format('DD/MM/YYYY');
 ❂━━━➳════⊷════➳━━━━❂
 
 *GITHUB LINK*
-> https://github.com/Fred1e
+> https://github.com/Digitex-Softwares
 
 *TELEGRAM GROUP*
 > https://t.me/+u3zlb5y6OfxhOTdk
 
-*FOR DEVELOPER T.ME*
-> https://t.me/freditech
+*BOOST FOLLOWERS*
+> https://Digitexsmartsolutions.com
 
 *WHATSAPP CHANNEL*
-> https://whatsapp.com/channel/0029VaihcQv84Om8LP59fO3f 
+> https://whatsapp.com/channel/0029Vb5zdsiA89MrLd1hAk2Q
 
 *FOR MORE INFO TAP ON THE LINK BELOW*
-> https://github.com/Fred1e/LUCKY_MD
+> https://github.com/Digitex-Softwares/Digitex-MD
 ╭──━━━━═════════━━━━⦿
 ┃ ❂━━━════➳════━━━━❂
 ┃▓▒⁠⁠⁠⁠ *RAM* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
-┃▓▒ *DEV* : *LUCKY BOT*
+┃▓▒ *DEV* : *DIGITEX-XMD BOT*
 ┃ ❂━━━════➳════━━━━❂
 ⁠⁠⁠⁠╰──━━━━═════════━━━━⦿ 
   `;
